@@ -34,7 +34,7 @@ function op(){
     }    
 }
 
-_close.onclick = function(){
+function cl(){
     _sidebar.style.width='0';
     _nav_links.style.visibility='hidden';
 }
