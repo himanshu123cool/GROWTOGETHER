@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position:fixed;
     left: 0;
     right: 0;
     z-index: 999;
@@ -335,6 +335,8 @@
     
     .about{
         padding: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .left_about{
@@ -357,6 +359,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .right_about>img{
+        height: 70%;
+        width: 70%;
     }
 
     #btn{
@@ -1113,7 +1120,7 @@
 
 .footer-communication-content{
     grid-column: 1/5;  
-    padding: 1rem;
+    padding: 2rem;
     background-color: var(--semi-color);
     border-radius: 10px;
     display: flex;
@@ -1193,7 +1200,7 @@
     color: var(--light-color);
  }
 
- .creator>p>span{
+ .creator>p>marquee>span{
      color: var(--main-color);
  }
 
@@ -1231,7 +1238,7 @@
     .footer{
         padding: 2rem 1rem;
         display: grid;
-        gap: 1rem;
+        gap: 4rem 2rem;
     }
 
     .footer-content>h2{
