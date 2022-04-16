@@ -624,7 +624,7 @@
 .details>a>span{
     color: var(--light-color);
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .details-icon{
@@ -640,7 +640,7 @@
 .footer-content{
     color: var(--light-color);
     word-spacing: 4px;
-    text-align: center;
+    text-align: start;
 }
 
 .footer-content>h2{
@@ -733,8 +733,14 @@
         overflow-wrap: break-word;
     }
 
-    .footer-content:nth-child(even){
-        grid-column: 1/4;
+    .footer-communication-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content{
+        grid-column: 1/5;
+        padding: 0.5rem;
     }
  }
 
