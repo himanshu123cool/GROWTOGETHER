@@ -50,7 +50,6 @@ window.onscroll = function navchange(){
 
 
 
-
 $('.about-more-btn').click(function(){
     $('.about-more').slideToggle('slow')
 })
