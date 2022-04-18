@@ -96,14 +96,14 @@
 
 
 #home{
-    height: 110vh;
+    height: 100vh;
 }
 
 
 #home>video{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:fill;
     z-index: 9999; 
 }
 
@@ -759,7 +759,11 @@
     color: var(--main-color);
 }
 
-.overlay>input{
+.overlay>form{
+    text-align: center;
+}
+
+.overlay>form>input{
     font-size: 1.1rem;
     padding: 0.8rem 2rem;
     outline: none;
@@ -923,7 +927,7 @@
         font-size: 2rem;
     }
 
-    .overlay>input{
+    .overlay>form>input{
         padding: 0.6rem 1.4rem;
         font-size: 1rem;
     }
@@ -976,7 +980,7 @@
         font-size: 1.5rem;
     }
 
-    .overlay>input{
+    .overlay>form>input{
         padding: 0.5rem 1.3rem;
         font-size: 1rem;
     }
@@ -1038,7 +1042,7 @@
         font-size: 1.3rem;
     }
 
-    .overlay>input{
+    .overlay>form>input{
         padding: 0.5rem 0.6rem;
         font-size: 1rem;
     }
@@ -1331,6 +1335,11 @@
         font-size: 0.8rem;
     }
 
+    .footer-nav-links>li>a{
+        font-size: 0.9rem;
+    }
+
+
  }
 
 
@@ -1377,6 +1386,11 @@
     .creator>p{
         font-size: 0.8rem;
     }
+
+    .footer-nav-links>li>a{
+        font-size: 0.9rem;
+    }
+
 
  }
  /* footer-media-queries  */

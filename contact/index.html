@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Together</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="../Media/favicon.jpeg" type="image/x-icon">
+    <!-- google font link  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- iconify link  -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="../contact/style.css">
+    <!-- custom js file  -->
+    <script src="../contact/script.js" defer></script>
+    <!-- jquery Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <!-- header-section-start  -->
+    <header>
+        <nav>
+            <div id="navbar">
+                <div id="logo">
+                    <img src="../Media/logo.png" alt="logo">
+                </div>
+                <div class="hamburger">
+                    <span class="iconify" data-icon="system-uicons:menu-hamburger" style="color: #ffcc00;" id="open"
+                        onclick="op()"></span>
+                    <div class="nav-links" id="sidebar">
+                        <span class="iconify" data-icon="fe:close" style="color: #000000" id="close"
+                            onclick="cl()"></span>
+                        <ul>
+                            <li><a href="../index.html" class="active">HOME</a></li>
+                            <li><a href="../about/index.html">ABOUT</a></li>
+                            <li><a href="../services/index.html">SERVICES</a></li>
+                            <li><a href="#">PRICING</a></li>
+                            <li><a href="../contact/index.html">CONTACT</a></li>
+                        </ul>
+                        <div class="social-link">
+                            <a href="https://m.facebook.com/official.growtogether/?ref=bookmarks" target="_blank"><span
+                                    class="iconify" data-icon="fontisto:facebook"></span></a>
+                            <a href="https://www.instagram.com/official.growtogether/" target="_blank"><span
+                                    class="iconify" data-icon="radix-icons:instagram-logo"></span></a>
+                            <a href="https://youtu.be/_DQJ_g0ZBC0" target="_blank"><span class="iconify"
+                                    data-icon="iconoir:youtube"></span></a>
+                            <a href="https://pin.it/5AoBTpq" target="_blank"><span class="iconify"
+                                    data-icon="fa-brands:pinterest-p"></span></a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <!-- header-section-end  -->
+
+
+    <main>
+        <!-- home-section-start  -->
+
+        <section id="home">
+           
+        </section>
+        <!-- home-section-end -->
+
+
+
+
+
+        <!-- contact-us-section-start  -->
+
+        <section id="contact" class="container">
+            <div class="contact_us_text">
+                <h1>CONTACT <span> US</span></h1>
+            </div>
+               <div class="left-contact">
+            <h2>POST YOUR QUERY</h2>
+                <br><br>
+               <form autocomplete="off" action="https://formspree.io/f/xeqnrvaz" method="POST">
+                    <div class="form-row">
+                        <label for="name">NAME</label> <br>
+                        <input type="text" name="fname" id="name" placeholder="Full Name" onkeyup="validateName()">
+                        <div id="name-error" class="error"></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">EMAIL</label> <br>
+                        <input type="email" name="email" id="email" placeholder="Email" onkeyup="validateEmail()">
+                        <div id="email-error" class="error"></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">PHONE No.</label> <br>
+                        <input type="phone" name="phone" id="phone" placeholder="Phone No." onkeyup="validatePhone()">
+                        <div id="phone-error" class="error"></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">MESSAGE</label><br>
+                        <textarea name="message" id="message" cols="" rows="10" placeholder="Message" onkeyup="validateMessage()"></textarea>
+                        <div id="subject-error" class="error"></div>
+                    </div>
+                    <div class="form-btn">
+                       <input type="submit" class="btn" id="sendbtn" value="Send Message" onsubmit="validateForm()">
+                    </div>
+                    <div id="form-error" class="error"></div>
+                </form> 
+            </div>
+            <div class="right-contact">
+                <h2>GET IN TOUCH</h2>
+                <p>We are eternal here to stay connected with our clients for any type of inquiry or assistance. To get
+                    in touch with us; you can use phone, email or you can send us a message through our contact page.
+                </p>
+                <div class="contact-us-communication-content">
+                    <div class="details">
+                        <a href="https://goo.gl/maps/GpzC5aPmkTyuwRjA8" target="_blank">
+                            <div class="icon-details-box">
+                                <span id="Address" class="iconify details-icon" data-icon="entypo:location"
+                                    style="color: #fc0;"></span>
+                            </div>
+                            <span>Raj Nagar RDC, Ghaziabad, 201001</span>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="mailto:growtogetherindiaofficial@gmail.com" target="_blank">
+                            <div class="icon-details-box">
+                                <span id="Email" class="iconify details-icon" data-icon="clarity:email-line"
+                                    style="color: #fc0;"></span>
+                            </div>
+                            <span>growtogetherindiaofficial@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="details">
+                        <a href="tel:+8851461955, tel:+7017296469" target="_blank">
+                            <div class="icon-details-box">
+                                <span id="Call" class="iconify details-icon" data-icon="charm:phone-call"
+                                    style="color: #fc0;"></span>
+                            </div>
+                            <span>8851461955,&nbsp;&nbsp;&nbsp;7017296469</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="map-box">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.519472217165!2d77.43906521724136!3d28.674103440919545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf15cb34fa0c3%3A0x69ac2b907bcaa0ba!2sGrow%20Together%20Advertising!5e0!3m2!1sen!2sin!4v1649411222481!5m2!1sen!2sin"
+                    style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+
+        <!-- contact-us-section-end  -->
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer-section-start  -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>GROW TOGETHER</h2>
+            <br>
+            <p>We deliver next-gen Digital Solutions to enable the business to increase the ROI. Consult with our
+                certified specialists about your new or existing business in the digital world and get the best possible
+                solutions.</p>
+            <br>
+            <div class="footer-social-link">
+                <a href="https://m.facebook.com/official.growtogether/?ref=bookmarks" target="_blank"><span
+                        class="iconify" data-icon="fontisto:facebook"></span></a>
+                <a href="https://www.instagram.com/official.growtogether/" target="_blank"><span class="iconify"
+                        data-icon="radix-icons:instagram-logo"></span></a>
+                <a href="https://youtu.be/_DQJ_g0ZBC0" target="_blank"><span class="iconify"
+                        data-icon="iconoir:youtube"></span></a>
+                <a href="https://pin.it/5AoBTpq" target="_blank"><span class="iconify"
+                        data-icon="fa-brands:pinterest-p"></span></a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h2>USEFUL LINKS</h2>
+            <br>
+            <ul class="footer-nav-links">
+                <li><a href="../index.html" class="active">HOME</a></li>
+                <li><a href="../about/index.html">ABOUT</a></li>
+                <li><a href="../services/index.html">SERVICES</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="../contact/index.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h2>OUR SERVICES</h2>
+            <br>
+            <ul class="footer-nav-links">
+                <li><a href="../services/index.html" class="active">CORPORATIVE VIDEO</a></li>
+                <li><a href="../services/index.html">GRAPHIC DESIGNING</a></li>
+                <li><a href="../services/index.html">DIGITAL MARKETING</a></li>
+                <li><a href="../services/index.html">WEB DESIGNING</a></li>
+                <li><a href="../services/index.html">SEARCH ENGINE OPTIMIZATION</a></li>
+                <li><a href="../services/index.html">WEB DEVELOPMENT</a></li>
+            </ul>
+        </div>
+        <div class="creator">
+            <p>
+                <marquee behaviour="" direction="left">&copy; CopyRight 2022 All Rights Reserved. Created By <span>
+                        Himanshu Sharma</span></marquee>
+            </p>
+        </div>
+    </footer>
+
+    <!-- footer-section-end -->
+</body>
+
+</html>
