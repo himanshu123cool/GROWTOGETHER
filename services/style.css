@@ -229,11 +229,10 @@
 /* home-section-start  */
 
 #home{
-    width: 100vw;
     background: url('../Media/service.png');
     height: 70vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center; 
 }
  
