@@ -228,12 +228,11 @@
 
 /* home-section-start  */
 
-#home{
-    background: url('../Media/service.png');
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center; 
+#home>img{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 4rem;
 }
  
 /* home-section-end  */
@@ -399,10 +398,6 @@
 /* laptop  */
 @media (min-width:769px) and (max-width:1024px){
 
-    #home{
-        height: 45vh;
-    }
-
     .what_we_do{
         padding: 2rem;
     }
@@ -438,10 +433,6 @@
         padding: 1.8rem 3rem;
     }
 
-    #home{
-        height: 45vh;
-    }
-
     .what_we_do_text>h1{
         font-size: 1.6rem;
     }
@@ -464,10 +455,6 @@
 /* phone  */
 
 @media (min-width:320px) and (max-width:480px){
-
-    #home{
-        height: 40vh;
-    }
 
     .what_we_do{
         padding: 1.8rem 2rem;
@@ -516,11 +503,6 @@
 
 
 @media (min-width:0px) and (max-width:319px){
-
-
-    #home{
-        height: 40vh;
-    }
 
     .what_we_do{
         padding: 1.8rem 0.5rem;

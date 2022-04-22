@@ -234,13 +234,11 @@
 /* home-section */
 
 
-#home{
+#home>img{
    width: 100%;
-   background: url('../Media/contact.png');
-   height: 70vh;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+   height: auto;
+   display: block;
+   margin-top: 4rem;
  }
  
  
@@ -458,10 +456,6 @@
 /* laptop */
 @media (min-width:769px) and (max-width:1024px){
 
-    #home{
-        height: 45vh;
-    }
-
     .container{
         padding: 4rem 3rem;
     }
@@ -489,10 +483,6 @@
 
 /* tablet */
 @media (min-width:481px) and (max-width:768px){
-
-    #home{
-        height: 45vh;
-    }
 
     .container{
         padding: 2rem;
@@ -548,9 +538,6 @@
 /* phonee */
 @media (min-width:320px) and (max-width:480px){
 
-    #home{
-        height: 40vh;
-    }
 
     .container{
         padding: 1rem;
@@ -639,10 +626,6 @@
 
 /*mini- phonee */
 @media (min-width:0) and (max-width:319px){
-
-    #home{
-        height: 40vh;
-    }
 
     .container{
         padding: 1rem;

@@ -234,15 +234,12 @@
 
  /* home-section */
 
-
-#home{
-   height: 70vh;
-   background-image: url('../Media/about-banner.jpeg');
-   background-size:100% 100%;
-   background-repeat: no-repeat;
-   background-position: center;
+#home>img{
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 4rem;
 }
-
 
 
  /* home-section */
@@ -444,10 +441,6 @@
         padding: 2rem;
     }
 
-    #home{
-        height: 45vh;
-    }
-
     #about{
         display: flex;
         flex-direction: column;
@@ -521,10 +514,6 @@
         padding: 1.5rem;
     }
 
-    #home{
-        height: 45vh;
-    }
-
     #about{
         display: flex;
         flex-direction: column;
@@ -593,10 +582,6 @@
     
     .container{
         padding: 1rem;
-    }
-
-    #home{
-        height: 40vh;
     }
 
     #about{
@@ -669,10 +654,6 @@
 
     .container{
         padding: 0.8rem;
-    }
-
-    #home{
-        height: 40vh;
     }
 
     #about{
