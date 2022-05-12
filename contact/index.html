@@ -90,22 +90,22 @@
                <form autocomplete="off" action="https://formspree.io/f/xeqnrvaz" method="POST">
                     <div class="form-row">
                         <label for="name">NAME</label> <br>
-                        <input type="text" name="fname" id="name" placeholder="Full Name" onkeyup="validateName()">
+                        <input type="text" name="fname" id="name" placeholder="Full Name" onkeyup="validateName()" minlength="3" maxlength="30" required>
                         <div id="name-error" class="error"></div>
                     </div>
                     <div class="form-row">
                         <label for="email">EMAIL</label> <br>
-                        <input type="email" name="email" id="email" placeholder="Email" onkeyup="validateEmail()">
+                        <input type="email" name="email" id="email" placeholder="Email" onkeyup="validateEmail()" required>
                         <div id="email-error" class="error"></div>
                     </div>
                     <div class="form-row">
                         <label for="phone">PHONE No.</label> <br>
-                        <input type="phone" name="phone" id="phone" placeholder="Phone No." onkeyup="validatePhone()">
+                        <input type="phone" name="phone" id="phone" placeholder="Phone No." onkeyup="validatePhone()" minlength="10" maxlength="10" required>
                         <div id="phone-error" class="error"></div>
                     </div>
                     <div class="form-row">
                         <label for="message">MESSAGE</label><br>
-                        <textarea name="message" id="message" cols="" rows="10" placeholder="Message" onkeyup="validateMessage()"></textarea>
+                        <textarea name="message" id="message" cols="" rows="10" placeholder="Message" onkeyup="validateMessage()" minlength="20" required></textarea>
                         <div id="subject-error" class="error"></div>
                     </div>
                     <div class="form-btn">
