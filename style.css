@@ -125,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 2rem 0;
+  gap: 3rem 0;
   list-style: none;
   padding-top: 8rem;
   visibility: hidden;
@@ -176,6 +176,10 @@ body {
     display: none;
   }
 
+  .side_menu_list {
+    gap: 3rem 0;
+  }
+
   #hamburger {
     display: flex;
   }
@@ -198,6 +202,10 @@ body {
 
   .menu_list {
     display: none;
+  }
+
+  .side_menu_list {
+    gap: 3rem 0;
   }
 
   #hamburger {
@@ -224,6 +232,10 @@ body {
     display: none;
   }
 
+  .side_menu_list {
+    gap: 3rem 0;
+  }
+
   #hamburger {
     display: flex;
   }
@@ -245,6 +257,10 @@ body {
 
   .menu_list {
     display: none;
+  }
+
+  .side_menu_list {
+    gap: 3rem 0;
   }
 
   #hamburger {

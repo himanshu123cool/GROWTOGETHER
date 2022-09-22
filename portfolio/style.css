@@ -162,6 +162,10 @@ body {
     display: none;
   }
 
+  .side_menu_list {
+    gap: 3rem 0;
+  }
+
   #hamburger {
     display: flex;
   }
@@ -175,6 +179,10 @@ body {
 @media (min-width: 481px) and (max-width: 768px) {
   #logo {
     width: 200px;
+  }
+
+  .side_menu_list {
+    gap: 3rem 0;
   }
 
   .container {
@@ -210,6 +218,10 @@ body {
     display: none;
   }
 
+  .side_menu_list {
+    gap: 3rem 0;
+  }
+
   #hamburger {
     display: flex;
   }
@@ -231,6 +243,10 @@ body {
 
   .menu_list {
     display: none;
+  }
+
+  .side_menu_list {
+    gap: 3rem 0;
   }
 
   #hamburger {
