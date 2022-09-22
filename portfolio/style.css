@@ -124,10 +124,10 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-direction: column;
-  gap: 2rem 0;
   list-style: none;
-  padding-top: 8rem;
+  padding: 5rem 0;
   visibility: hidden;
 }
 
@@ -162,10 +162,6 @@ body {
     display: none;
   }
 
-  .side_menu_list {
-    gap: 3rem 0;
-  }
-
   #hamburger {
     display: flex;
   }
@@ -179,10 +175,6 @@ body {
 @media (min-width: 481px) and (max-width: 768px) {
   #logo {
     width: 200px;
-  }
-
-  .side_menu_list {
-    gap: 3rem 0;
   }
 
   .container {
@@ -218,10 +210,6 @@ body {
     display: none;
   }
 
-  .side_menu_list {
-    gap: 3rem 0;
-  }
-
   #hamburger {
     display: flex;
   }
@@ -243,10 +231,6 @@ body {
 
   .menu_list {
     display: none;
-  }
-
-  .side_menu_list {
-    gap: 3rem 0;
   }
 
   #hamburger {
