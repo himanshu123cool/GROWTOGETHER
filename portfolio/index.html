@@ -1,240 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Digital Marketing Company in Raj Nagar RDC Ghaziabad, Social Media Marketing Company in Raj Nagar RDC Ghaziabad, SEO Company in Raj Nagar RDC Ghaziabad, Video Production Company in Raj Nagar RDC Ghaziabad, Website Designing Company in Raj Nagar RDC Ghaziabad, Website Development Company in Raj Nagar RDC Ghaziabad, Grow Together">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Jquery">
-    <meta name="author" content="GROW TOGETHER">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Digital Marketing Company in Raj Nagar RDC Ghaziabad, Social Media Marketing Company in Raj Nagar RDC Ghaziabad, SEO Company in Raj Nagar RDC Ghaziabad, Video Production Company in Raj Nagar RDC Ghaziabad, Website Designing Company in Raj Nagar RDC Ghaziabad, Website Development Company in Raj Nagar RDC Ghaziabad, Grow Together"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Jquery" />
+    <meta name="author" content="GROW TOGETHER" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grow Together</title>
     <!-- favicon link  -->
-    <link rel="shortcut icon" href="../Media/favicon.webp" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../Media/favicon.webp"
+      type="image/x-icon"
+    />
     <!-- google font link  -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <!-- iconify link  -->
-    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-    <!-- custom css link  -->
-    <link rel="stylesheet" href="../portfolio/style.css">
-    <!-- custom js file  -->
-    <script src="../portfolio/script.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
+      integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- jquery Cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="../portfolio/style.css" />
+    <!-- custom js file  -->
+    <script src="../portfolio/script.js" async></script>
+  </head>
 
-<body>
+  <body>
     <!-- header-section-start  -->
-    <header>
-        <nav>
-            <div id="navbar">
-                <div id="logo">
-                    <img src="../Media/logo.webp" alt="logo">
-                </div>
-                <div class="hamburger">
-                    <span class="iconify" data-icon="system-uicons:menu-hamburger" style="color: #ffcc00;" id="open"
-                        onclick="op()"></span>
-                    <div class="nav-links" id="sidebar">
-                        <span class="iconify" data-icon="fe:close" style="color: #000000" id="close" onclick="cl()"></span>
-                        <ul>
-                            <li><a href="../index.html" class="active">HOME</a></li>
-                            <li><a href="../about/index.html">ABOUT</a></li>
-                            <li><a href="../services/index.html">SERVICES</a></li>
-                            <li><a href="../price/index.html">PRICING</a></li>
-                            <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
-                            <li><a href="../contact/index.html">CONTACT</a></li>
-                        </ul>
-                        <div class="social-link">
-                            <a href="https://www.facebook.com/official.growtogether" target="_blank"><span
-                                class="iconify" data-icon="fontisto:facebook"></span></a>
-                        <a href="https://www.instagram.com/official.growtogether/?hl=en" target="_blank"><span class="iconify"
-                                data-icon="radix-icons:instagram-logo"></span></a>
-                        <a href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg" target="_blank"><span class="iconify"
-                                data-icon="iconoir:youtube"></span></a>
-                        <a href="https://in.pinterest.com/officialgrowtogether/" target="_blank"><span class="iconify"
-                                data-icon="fa-brands:pinterest-p"></span></a>
-                        </div>
-                    </div>
-                </div>
-        </nav>
+
+    <header id="header">
+      <div id="wrapper" class="container">
+        <div id="logo_box">
+          <a href="./" target="_parent"
+            ><img
+              src="../Media/logo.webp"
+              alt="digital marketing logo"
+              id="logo"
+          /></a>
+        </div>
+        <div id="navbar">
+          <nav>
+            <ul class="menu_list">
+              <li>
+                <a href="../" class="nav_link">HOME</a>
+              </li>
+              <li>
+                <a href="../about/" class="nav_link">ABOUT</a>
+              </li>
+              <li>
+                <a href="../services/" class="nav_link">SERVICES</a>
+              </li>
+              <li>
+                <a href="../price/" class="nav_link">PRICING</a>
+              </li>
+              <li>
+                <a href="../portfolio/" class="nav_link">PORTFOLIO</a>
+              </li>
+              <li>
+                <a href="../contact/" class="nav_link">CONTACT</a>
+              </li>
+            </ul>
+
+            <div id="hamburger">
+              <span
+                class="iconify"
+                data-icon="system-uicons:menu-hamburger"
+                style="color: #ffcc00"
+                id="open"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="fe:close"
+                style="color: #ffcc00"
+                id="close"
+              ></span>
+            </div>
+          </nav>
+        </div>
+      </div>
     </header>
+
+    <div id="sidebar">
+      <ul class="side_menu_list">
+        <li><a href="../" class="side_navlink">HOME</a></li>
+        <li><a href="../about/" class="side_navlink">ABOUT</a></li>
+        <li>
+          <a href="../services/" class="side_navlink">SERVICES</a>
+        </li>
+        <li>
+          <a href="../price/" class="side_navlink">PRICING</a>
+        </li>
+        <li>
+          <a href="../portfolio/" class="side_navlink">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="../contact/" class="side_navlink">CONTACT</a>
+        </li>
+      </ul>
+    </div>
     <!-- header-section-end  -->
-
-
-
-
-
-
 
     <!-- ----------------home-section-start------------ -->
 
     <section id="home">
-        <img src="../Media/portfolio.webp" alt="portfolio-banner" class="portfolio-banner-img">
+      <img
+        src="../Media/portfolio.webp"
+        alt="digital marketing porfolio banner"
+        class="portfolio-banner-img"
+      />
     </section>
 
     <!-- ----------------home-section-end-------------- -->
-    
 
-
-
-
-
-
-
-
-
-
-
-<!-- ----------------------portfolio-section-start--------------- -->
-    <section id="portfolio" class="container">
-        <div class="portfolio_text">
-            <h1>PORTFO<span>LIO</span></h1>
+    <!-- ----------------------portfolio-section-start--------------- -->
+    <section id="portfolio" class="container_padding">
+      <div class="portfolio_text">
+        <h1>PORTFO<span>LIO</span></h1>
+      </div>
+      <div class="portfolio-content">
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (1).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
         </div>
-        <div class="portfolio-content">
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (1).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (2).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (3).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (4).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (5).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (6).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (13).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (14).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (15).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (7).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (8).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (9).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (10).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (11).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
-            <div class="portfolio-content-box">
-                <img src="../Media/creative (12).webp" alt="portfolio-img" class="portfolio-img">
-            </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (2).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
         </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (3).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (4).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (5).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (6).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (13).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (14).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (15).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (7).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (8).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (9).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (10).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (11).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-content-box">
+          <img
+            src="../Media/creative (12).webp"
+            alt="digital marketing festival creative"
+            class="portfolio-img"
+          />
+        </div>
+      </div>
     </section>
 
-
-
     <div class="portfolio-overlay">
-        <span class="iconify" data-icon="fe:close" style="color: #fc0" id="overlay-close" onclick="overlay()"></span>
-        <div class="portfolio-overlay-img-box">
-            <img src="" alt="" class="overlay-img">
-        </div>
+      <span
+        class="iconify"
+        data-icon="fe:close"
+        style="color: #fc0"
+        id="overlay-close"
+        onclick="overlay()"
+      ></span>
+      <div class="portfolio-overlay-img-box">
+        <img
+          src=""
+          alt="digital marketing festival creative"
+          class="overlay-img"
+        />
+      </div>
     </div>
 
+    <!-- ----------------------portfolio-section-end--------------- -->
 
-<!-- ----------------------portfolio-section-end--------------- -->
+    <!-- footer-section-start  -->
 
-
-
-
-
-     <!-- footer-section-start  -->
-
-     <footer class="footer">
-        <div class="footer-communication-content">
-            <div class="details">
-                <a href="https://goo.gl/maps/GpzC5aPmkTyuwRjA8" target="_blank">
-                    <span id="Address" class="iconify details-icon" data-icon="entypo:location"
-                        style="color: #fc0;"></span> <br>
-                    <span>Raj Nagar RDC, Ghaziabad, 201001</span>
-                </a>
-            </div>
-            <div class="details">
-                <a href="mailto:growtogetherindiaofficial@gmail.com" target="_blank">
-                    <span id="Email" class="iconify details-icon" data-icon="clarity:email-line"
-                        style="color: #fc0;"></span><br>
-                    <span>growtogetherindiaofficial@gmail.com</span>
-                </a>
-            </div>
-            <div class="details">
-                <a href="tel:+8851461955, +7017296469" target="_blank">
-                    <span id="Call" class="iconify details-icon" data-icon="charm:phone-call"
-                        style="color: #fc0;"></span><br>
-                    <span>8851461955,&nbsp;&nbsp;&nbsp;7017296469</span>
-                </a>
-            </div>
+    <footer class="footer">
+      <div class="footer-communication-content">
+        <div class="details">
+          <a href="https://goo.gl/maps/GpzC5aPmkTyuwRjA8" target="_blank">
+            <span
+              id="Address"
+              class="iconify details-icon"
+              data-icon="entypo:location"
+              style="color: #fc0"
+            ></span>
+            <br />
+            <span>Raj Nagar RDC, Ghaziabad, 201001</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>GROW TOGETHER</h2>
-            <br>
-            <p>We deliver next-gen Digital Solutions to enable the business to increase the ROI. Consult with our
-                certified specialists about your new or existing business in the digital world and get the best possible
-                solutions.</p>
-            <br>
-            <div class="footer-social-link">
-                <a href="https://www.facebook.com/official.growtogether" target="_blank"><span
-                    class="iconify" data-icon="fontisto:facebook"></span></a>
-            <a href="https://www.instagram.com/official.growtogether/?hl=en" target="_blank"><span class="iconify"
-                    data-icon="radix-icons:instagram-logo"></span></a>
-            <a href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg" target="_blank"><span class="iconify"
-                    data-icon="iconoir:youtube"></span></a>
-            <a href="https://in.pinterest.com/officialgrowtogether/" target="_blank"><span class="iconify"
-                    data-icon="fa-brands:pinterest-p"></span></a>
-            </div>
+        <div class="details">
+          <a href="mailto:growtogetherindiaofficial@gmail.com" target="_blank">
+            <span
+              id="Email"
+              class="iconify details-icon"
+              data-icon="clarity:email-line"
+              style="color: #fc0"
+            ></span
+            ><br />
+            <span>growtogetherindiaofficial@gmail.com</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>USEFUL LINKS</h2>
-            <br>
-            <ul class="footer-nav-links">
-                <li><a href="../index.html" class="active">HOME</a></li>
-                <li><a href="../about/index.html">ABOUT</a></li>
-                <li><a href="../services/index.html">SERVICES</a></li>
-                <li><a href="../price/index.html">PRICING</a></li>
-                <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
-                <li><a href="../contact/index.html">CONTACT</a></li>
-            </ul>
+        <div class="details">
+          <a href="tel:+8851461955, +7017296469" target="_blank">
+            <span
+              id="Call"
+              class="iconify details-icon"
+              data-icon="charm:phone-call"
+              style="color: #fc0"
+            ></span
+            ><br />
+            <span>8851461955,&nbsp;&nbsp;&nbsp;7017296469</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>OUR SERVICES</h2>
-            <br>
-            <ul class="footer-nav-links">
-                <li><a href="../services/index.html" class="active">CORPORATIVE VIDEO</a></li>
-                <li><a href="../services/index.html">GRAPHIC DESIGNING</a></li>
-                <li><a href="../services/index.html">DIGITAL MARKETING</a></li>
-                <li><a href="../services/index.html">WEB DESIGNING</a></li>
-                <li><a href="../services/index.html">SEARCH ENGINE OPTIMIZATION</a></li>
-                <li><a href="../services/index.html">WEB DEVELOPMENT</a></li>
-            </ul>
+      </div>
+      <div class="footer-content">
+        <p>GROW TOGETHER</p>
+        <br />
+        <p>
+          We deliver next-gen Digital Solutions to enable the business to
+          increase the ROI. Consult with our certified specialists about your
+          new or existing business in the digital world and get the best
+          possible solutions.
+        </p>
+        <br />
+        <div class="footer-social-link">
+          <a
+            href="https://www.facebook.com/official.growtogether"
+            target="_blank"
+            ><span class="iconify" data-icon="fontisto:facebook"></span
+          ></a>
+          <a
+            href="https://www.instagram.com/official.growtogether/?hl=en"
+            target="_blank"
+            ><span class="iconify" data-icon="radix-icons:instagram-logo"></span
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg"
+            target="_blank"
+            ><span class="iconify" data-icon="iconoir:youtube"></span
+          ></a>
+          <a
+            href="https://in.pinterest.com/officialgrowtogether/"
+            target="_blank"
+            ><span class="iconify" data-icon="fa-brands:pinterest-p"></span
+          ></a>
         </div>
-        <div class="footer-content map">
-            <h2>COMPANY LOCATION</h2>
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.519472217165!2d77.43906521724136!3d28.674103440919545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf15cb34fa0c3%3A0x69ac2b907bcaa0ba!2sGrow%20Together%20Advertising!5e0!3m2!1sen!2sin!4v1649411222481!5m2!1sen!2sin" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="creator">     
-         <p><marquee behaviour="" direction="left">&copy; CopyRight 2022 All Rights Reserved. Created By <span> Himanshu Sharma</span></marquee> </p>
-        </div>
+      </div>
+      <div class="footer-content">
+        <p>USEFUL LINKS</p>
+        <br />
+        <ul class="footer-nav-links">
+          <li><a href="../">HOME</a></li>
+          <li><a href="../about/">ABOUT</a></li>
+          <li><a href="../services/">SERVICES</a></li>
+          <li><a href="../price/">PRICING</a></li>
+          <li><a href="../portfolio/">PORTFOLIO</a></li>
+          <li><a href="../contact/">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <p>OUR SERVICES</p>
+        <br />
+        <ul class="footer-nav-links">
+          <li>
+            <a href="../services/">CORPORATIVE VIDEO</a>
+          </li>
+          <li>
+            <a href="../services/">GRAPHIC DESIGNING</a>
+          </li>
+          <li>
+            <a href="../services/">DIGITAL MARKETING</a>
+          </li>
+          <li><a href="../services/">WEB DESIGNING</a></li>
+          <li>
+            <a href="../services/">SEARCH ENGINE OPTIMIZATION</a>
+          </li>
+          <li>
+            <a href="../services/">WEB DEVELOPMENT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <p>COMPANY LOCATION</p>
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448423.45671031275!2d77.01418486694632!3d28.590527876505938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf15cb34fa0c3%3A0x69ac2b907bcaa0ba!2sGrow%20Together%20Advertising!5e0!3m2!1sen!2sin!4v1663744331047!5m2!1sen!2sin"
+          allowfullscreen=""
+          width="100%"
+          height="80%"
+          style="border: 0"
+          title="google_map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="creator">
+        <p>
+          <marquee direction="left"
+            >&copy; CopyRight 2022 All Rights Reserved.
+            <span
+              ><a href="./" title="grow together"
+                >Grow Together Advertising</a
+              ></span
+            ></marquee
+          >
+        </p>
+      </div>
     </footer>
 
     <!-- footer-section-end -->
-</body>
-
+  </body>
 </html>

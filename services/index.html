@@ -1,276 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Digital Marketing Company in Raj Nagar RDC Ghaziabad, Social Media Marketing Company in Raj Nagar RDC Ghaziabad, SEO Company in Raj Nagar RDC Ghaziabad, Video Production Company in Raj Nagar RDC Ghaziabad, Website Designing Company in Raj Nagar RDC Ghaziabad, Website Development Company in Raj Nagar RDC Ghaziabad, Grow Together">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Jquery">
-    <meta name="author" content="GROW TOGETHER">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Digital Marketing Company in Raj Nagar RDC Ghaziabad, Social Media Marketing Company in Raj Nagar RDC Ghaziabad, SEO Company in Raj Nagar RDC Ghaziabad, Video Production Company in Raj Nagar RDC Ghaziabad, Website Designing Company in Raj Nagar RDC Ghaziabad, Website Development Company in Raj Nagar RDC Ghaziabad, Grow Together"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Jquery" />
+    <meta name="author" content="GROW TOGETHER" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grow Together</title>
     <!-- favicon link  -->
-    <link rel="shortcut icon" href="../Media/favicon.webp" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../Media/favicon.webp"
+      type="image/x-icon"
+    />
     <!-- google font link  -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <!-- iconify link  -->
-    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-    <!-- custom css link  -->
-    <link rel="stylesheet" href="../services/style.css">
-    <!-- custom js file  -->
-    <script src="../services/script.js" defer></script>
-     <!-- jquery Cdn -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
+      integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery Cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-<body>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="../services/style.css" />
+    <!-- custom js file  -->
+    <script src="../services/script.js" async></script>
+  </head>
+
+  <body>
     <!-- header-section-start  -->
-    <header>
-        <nav>
-            <div id="navbar">
-                <div id="logo">
-                    <img src="../Media/logo.webp" alt="logo">
-                </div>
-                <div class="hamburger">
-                    <span class="iconify" data-icon="system-uicons:menu-hamburger" style="color: #ffcc00;" id="open"
-                        onclick="op()"></span>
-                    <div class="nav-links" id="sidebar">
-                        <span class="iconify" data-icon="fe:close" style="color: #000000" id="close" onclick="cl()"></span>
-                        <ul>
-                            <li><a href="../index.html" class="active">HOME</a></li>
-                            <li><a href="../about/index.html">ABOUT</a></li>
-                            <li><a href="../services/index.html">SERVICES</a></li>
-                            <li><a href="../price/index.html">PRICING</a></li>
-                            <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
-                            <li><a href="../contact/index.html">CONTACT</a></li>
-                        </ul>
-                        <div class="social-link">
-                            <a href="https://www.facebook.com/official.growtogether" target="_blank"><span
-                                    class="iconify" data-icon="fontisto:facebook"></span></a>
-                            <a href="https://www.instagram.com/official.growtogether/?hl=en" target="_blank"><span
-                                    class="iconify" data-icon="radix-icons:instagram-logo"></span></a>
-                            <a href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg" target="_blank"><span class="iconify"
-                                    data-icon="iconoir:youtube"></span></a>
-                            <a href="https://in.pinterest.com/officialgrowtogether/" target="_blank"><span class="iconify"
-                                    data-icon="fa-brands:pinterest-p"></span></a>
-                        </div>
-                    </div>
-                </div>
-        </nav>
+
+    <header id="header">
+      <div id="wrapper" class="container">
+        <div id="logo_box">
+          <a href="./" target="_parent"
+            ><img
+              src="../Media/logo.webp"
+              alt="digital marketing logo"
+              id="logo"
+          /></a>
+        </div>
+        <div id="navbar">
+          <nav>
+            <ul class="menu_list">
+              <li>
+                <a href="../" class="nav_link">HOME</a>
+              </li>
+              <li>
+                <a href="../about/" class="nav_link">ABOUT</a>
+              </li>
+              <li>
+                <a href="../services/" class="nav_link">SERVICES</a>
+              </li>
+              <li>
+                <a href="../price/" class="nav_link">PRICING</a>
+              </li>
+              <li>
+                <a href="../portfolio/" class="nav_link">PORTFOLIO</a>
+              </li>
+              <li>
+                <a href="../contact/" class="nav_link">CONTACT</a>
+              </li>
+            </ul>
+
+            <div id="hamburger">
+              <span
+                class="iconify"
+                data-icon="system-uicons:menu-hamburger"
+                style="color: #ffcc00"
+                id="open"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="fe:close"
+                style="color: #ffcc00"
+                id="close"
+              ></span>
+            </div>
+          </nav>
+        </div>
+      </div>
     </header>
+
+    <div id="sidebar">
+      <ul class="side_menu_list">
+        <li><a href="../" class="side_navlink">HOME</a></li>
+        <li><a href="../about/" class="side_navlink">ABOUT</a></li>
+        <li>
+          <a href="../services/" class="side_navlink">SERVICES</a>
+        </li>
+        <li>
+          <a href="../price/" class="side_navlink">PRICING</a>
+        </li>
+        <li>
+          <a href="../portfolio/" class="side_navlink">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="../contact/" class="side_navlink">CONTACT</a>
+        </li>
+      </ul>
+    </div>
     <!-- header-section-end  -->
 
+    <!-- home-section-start  -->
+    <main>
+      <section id="home">
+        <img
+          src="../Media/service.webp"
+          alt="digital marketing service banner"
+        />
+      </section>
 
+      <!-- home-section-end -->
 
+      <!-- what_we_do-section-start  -->
 
-
-<!-- home-section-start  -->
-<main>
-
-    <section id="home">
-      <img src="../Media/service.webp" alt="">
-    </section>
-
-<!-- home-section-end -->
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- what_we_do-section-start  -->
-
-  <section class="what_we_do">
-    <div class="what_we_do_text">
-        <h1>WHAT WE <span>DO</span></h1>
-    </div>
-    <br><br>
-    <div class="what_we_do_content">
-        <div class="what_we_do_content_box" id="CorporateVideo">
-            <h1>Corporate Video</h1>
-            <br>
-            <div class="what_we_do_icon">
-                <span class="iconify" data-icon="clarity:video-gallery-line" style="color: var(--dark-color)"></span>
-            </div>
-            <br>
-            <p>Our Grow Together team having vast Experience of making corporate videos to represent your
-                company information.</p>
+      <section class="what_we_do container_padding">
+        <div class="what_we_do_text">
+          <h1>WHAT WE <span>DO</span></h1>
         </div>
-        <div class="what_we_do_content_box" id="GraphicDesigning">
-            <h1>Graphic Designing</h1>
-            <br>
+        <br /><br />
+        <div class="what_we_do_content">
+          <div class="what_we_do_content_box" id="CorporateVideo">
+            <p>Corporate Video</p>
+            <br />
             <div class="what_we_do_icon">
-                <span class="iconify" data-icon="bytesize:desktop" style="color: var(--dark-color)"></span>
+              <span
+                class="iconify"
+                data-icon="clarity:video-gallery-line"
+                style="color: var(--dark-color)"
+              ></span>
             </div>
-            <br>
-            <p>In this world of communication and with quickest growing of technology it's important to avoid
-                wasting the time for selling product door to door.</p>
-        </div>
-        <div class="what_we_do_content_box" id="DigitalMarketing">
-            <h1>Digital Marketing</h1>
-            <br>
+            <br />
+            <p>
+              Our Grow Together team having vast Experience of making corporate
+              videos to represent your company information.
+            </p>
+          </div>
+          <div class="what_we_do_content_box" id="GraphicDesigning">
+            <p>Graphic Designing</p>
+            <br />
             <div class="what_we_do_icon">
-                <span class="iconify" data-icon="fa-solid:search-location" style="color: var(--dark-color)"></span>
+              <span
+                class="iconify"
+                data-icon="bytesize:desktop"
+                style="color: var(--dark-color)"
+              ></span>
             </div>
-            <br>
-            <p>We are leading Digital Marketing Company in India, helps you establish a foothold on the online
-                medium for Search Engines and Social Media.</p>
-        </div>
+            <br />
+            <p>
+              In this world of communication and with quickest growing of
+              technology it's important to avoid wasting the time for selling
+              product door to door.
+            </p>
+          </div>
+          <div class="what_we_do_content_box" id="DigitalMarketing">
+            <p>Digital Marketing</p>
+            <br />
+            <div class="what_we_do_icon">
+              <span
+                class="iconify"
+                data-icon="fa-solid:search-location"
+                style="color: var(--dark-color)"
+              ></span>
+            </div>
+            <br />
+            <p>
+              We are leading Digital Marketing Company in India, helps you
+              establish a foothold on the online medium for Search Engines and
+              Social Media.
+            </p>
+          </div>
 
-
-        <div class="service-detail-box-1">
-            <h2 class="service-detail-heading-1"></h2>
-            <br><br>
+          <div class="service-detail-box-1">
+            <p class="service-detail-heading-1"></p>
+            <br />
             <p class="service-detail-para-1"></p>
-        </div>
+          </div>
 
-
-
-        <div class="what_we_do_content_box" id="WebDesigning">
-            <h1>Web Designing</h1>
-            <br>
+          <div class="what_we_do_content_box" id="WebDesigning">
+            <p>Web Designing</p>
+            <br />
             <div class="what_we_do_icon">
-                <span class="iconify" data-icon="bi:code-square" style="color: var(--dark-color)"></span>
+              <span
+                class="iconify"
+                data-icon="bi:code-square"
+                style="color: var(--dark-color)"
+              ></span>
             </div>
-            <br>
-            <p>Establish Your Business Goal With a Wonderful Internet Coming Up With Service First, you ought to
-                conclude the most important purpose of your web site.</p>
-        </div>
-        <div class="what_we_do_content_box" id="SEO">
-            <h1>SEO</h1>
-            <br>
+            <br />
+            <p>
+              Establish Your Business Goal With a Wonderful Internet Coming Up
+              With Service First, you ought to conclude the most important
+              purpose of your web site.
+            </p>
+          </div>
+          <div class="what_we_do_content_box" id="SEO">
+            <p>SEO</p>
+            <br />
             <div class="what_we_do_icon">
-                <span class="iconify" data-icon="icon-park-outline:seo" style="color: var(--dark-color)"></span>
+              <span
+                class="iconify"
+                data-icon="icon-park-outline:seo"
+                style="color: var(--dark-color)"
+              ></span>
             </div>
-            <br>
-            <p>We deliver best SEO services and makes sure to increase your website visibility and ranking at
-                the top of SERP.</p>
-        </div>
-        <div class="what_we_do_content_box" id="WebDevelopment">
-            <h1>Web Development</h1>
-            <br>
+            <br />
+            <p>
+              We deliver best SEO services and makes sure to increase your
+              website visibility and ranking at the top of SERP.
+            </p>
+          </div>
+          <div class="what_we_do_content_box" id="WebDevelopment">
+            <p>Web Development</p>
+            <br />
             <div class="what_we_do_icon">
-                <span class="iconify" data-icon="cib:visual-studio-code" style="color: var(--dark-color)"></span>
+              <span
+                class="iconify"
+                data-icon="cib:visual-studio-code"
+                style="color: var(--dark-color)"
+              ></span>
             </div>
-            <br>
-            <p>We specialize in designing powerful virtual branding and developing W3C standard websites that
-                support all devices.</p>
-        </div>
+            <br />
+            <p>
+              We specialize in designing powerful virtual branding and
+              developing W3C standard websites that support all devices.
+            </p>
+          </div>
 
-        <div class="service-detail-box-2">
-            <h2 class="service-detail-heading-2"></h2>
-            <br><br>
+          <div class="service-detail-box-2">
+            <p class="service-detail-heading-2"></p>
+            <br />
             <p class="service-detail-para-2"></p>
+          </div>
         </div>
-    </div>
+      </section>
+    </main>
 
-</section>
-
-
-
-
-
-
-
-
-
-
-
-</main>
-
-<!-- what_we_do-section-end  -->
-
-
-
-
+    <!-- what_we_do-section-end  -->
 
     <!-- footer-section-start  -->
 
     <footer class="footer">
-        <div class="footer-communication-content">
-            <div class="details">
-                <a href="https://goo.gl/maps/GpzC5aPmkTyuwRjA8" target="_blank">
-                    <span id="Address" class="iconify details-icon" data-icon="entypo:location"
-                        style="color: #fc0;"></span> <br>
-                    <span>Raj Nagar RDC, Ghaziabad, 201001</span>
-                </a>
-            </div>
-            <div class="details">
-                <a href="mailto:growtogetherindiaofficial@gmail.com" target="_blank">
-                    <span id="Email" class="iconify details-icon" data-icon="clarity:email-line"
-                        style="color: #fc0;"></span><br>
-                    <span>growtogetherindiaofficial@gmail.com</span>
-                </a>
-            </div>
-            <div class="details">
-                <a href="tel:+8851461955, +7017296469" target="_blank">
-                    <span id="Call" class="iconify details-icon" data-icon="charm:phone-call"
-                        style="color: #fc0;"></span><br>
-                    <span>8851461955,&nbsp;&nbsp;&nbsp;7017296469</span>
-                </a>
-            </div>
+      <div class="footer-communication-content">
+        <div class="details">
+          <a href="https://goo.gl/maps/GpzC5aPmkTyuwRjA8" target="_blank">
+            <span
+              id="Address"
+              class="iconify details-icon"
+              data-icon="entypo:location"
+              style="color: #fc0"
+            ></span>
+            <br />
+            <span>Raj Nagar RDC, Ghaziabad, 201001</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>GROW TOGETHER</h2>
-            <br>
-            <p>We deliver next-gen Digital Solutions to enable the business to increase the ROI. Consult with our
-                certified specialists about your new or existing business in the digital world and get the best possible
-                solutions.</p>
-            <br>
-            <div class="footer-social-link">
-                <a href="https://www.facebook.com/official.growtogether" target="_blank"><span
-                        class="iconify" data-icon="fontisto:facebook"></span></a>
-                <a href="https://www.instagram.com/official.growtogether/?hl=en" target="_blank"><span class="iconify"
-                        data-icon="radix-icons:instagram-logo"></span></a>
-                <a href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg" target="_blank"><span class="iconify"
-                        data-icon="iconoir:youtube"></span></a>
-                <a href="https://in.pinterest.com/officialgrowtogether/" target="_blank"><span class="iconify"
-                        data-icon="fa-brands:pinterest-p"></span></a>
-            </div>
+        <div class="details">
+          <a href="mailto:growtogetherindiaofficial@gmail.com" target="_blank">
+            <span
+              id="Email"
+              class="iconify details-icon"
+              data-icon="clarity:email-line"
+              style="color: #fc0"
+            ></span
+            ><br />
+            <span>growtogetherindiaofficial@gmail.com</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>USEFUL LINKS</h2>
-            <br>
-            <ul class="footer-nav-links">
-                <li><a href="../index.html" class="active">HOME</a></li>
-                <li><a href="../about/index.html">ABOUT</a></li>
-                <li><a href="../services/index.html">SERVICES</a></li>
-                <li><a href="../price/index.html">PRICING</a></li>
-                <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
-                <li><a href="../contact/index.html">CONTACT</a></li>
-            </ul>
+        <div class="details">
+          <a href="tel:+8851461955, +7017296469" target="_blank">
+            <span
+              id="Call"
+              class="iconify details-icon"
+              data-icon="charm:phone-call"
+              style="color: #fc0"
+            ></span
+            ><br />
+            <span>8851461955,&nbsp;&nbsp;&nbsp;7017296469</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <h2>OUR SERVICES</h2>
-            <br>
-            <ul class="footer-nav-links">
-                <li><a href="#CorporateVideo" class="active">CORPORATIVE VIDEO</a></li>
-                <li><a href="#GraphicDesigning">GRAPHIC DESIGNING</a></li>
-                <li><a href="#DigitalMarketing">DIGITAL MARKETING</a></li>
-                <li><a href="#WebDesigning">WEB DESIGNING</a></li>
-                <li><a href="#SEO">SEARCH ENGINE OPTIMIZATION</a></li>
-                <li><a href="#WebDevelopment">WEB DEVELOPMENT</a></li>
-            </ul>
+      </div>
+      <div class="footer-content">
+        <p>GROW TOGETHER</p>
+        <br />
+        <p>
+          We deliver next-gen Digital Solutions to enable the business to
+          increase the ROI. Consult with our certified specialists about your
+          new or existing business in the digital world and get the best
+          possible solutions.
+        </p>
+        <br />
+        <div class="footer-social-link">
+          <a
+            href="https://www.facebook.com/official.growtogether"
+            target="_blank"
+            ><span class="iconify" data-icon="fontisto:facebook"></span
+          ></a>
+          <a
+            href="https://www.instagram.com/official.growtogether/?hl=en"
+            target="_blank"
+            ><span class="iconify" data-icon="radix-icons:instagram-logo"></span
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCHeg6uxyOO_QpVPkV8XtRDg"
+            target="_blank"
+            ><span class="iconify" data-icon="iconoir:youtube"></span
+          ></a>
+          <a
+            href="https://in.pinterest.com/officialgrowtogether/"
+            target="_blank"
+            ><span class="iconify" data-icon="fa-brands:pinterest-p"></span
+          ></a>
         </div>
-        <div class="footer-content map">
-            <h2>COMPANY LOCATION</h2>
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.519472217165!2d77.43906521724136!3d28.674103440919545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf15cb34fa0c3%3A0x69ac2b907bcaa0ba!2sGrow%20Together%20Advertising!5e0!3m2!1sen!2sin!4v1649411222481!5m2!1sen!2sin" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="creator">     
-            <p><marquee behaviour="" direction="left">&copy; CopyRight 2022 All Rights Reserved. Created By <span> Himanshu Sharma</span></marquee> </p>
-        </div>
+      </div>
+      <div class="footer-content">
+        <p>USEFUL LINKS</p>
+        <br />
+        <ul class="footer-nav-links">
+          <li><a href="./">HOME</a></li>
+          <li><a href="./about/">ABOUT</a></li>
+          <li><a href="./services/">SERVICES</a></li>
+          <li><a href="./price/">PRICING</a></li>
+          <li><a href="./portfolio/">PORTFOLIO</a></li>
+          <li><a href="./contact/">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <p>OUR SERVICES</p>
+        <br />
+        <ul class="footer-nav-links">
+          <li>
+            <a href="./services/">CORPORATIVE VIDEO</a>
+          </li>
+          <li>
+            <a href="./services/">GRAPHIC DESIGNING</a>
+          </li>
+          <li>
+            <a href="./services/">DIGITAL MARKETING</a>
+          </li>
+          <li><a href="./services/">WEB DESIGNING</a></li>
+          <li>
+            <a href="./services/">SEARCH ENGINE OPTIMIZATION</a>
+          </li>
+          <li>
+            <a href="./services/">WEB DEVELOPMENT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <p>COMPANY LOCATION</p>
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448423.45671031275!2d77.01418486694632!3d28.590527876505938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf15cb34fa0c3%3A0x69ac2b907bcaa0ba!2sGrow%20Together%20Advertising!5e0!3m2!1sen!2sin!4v1663744331047!5m2!1sen!2sin"
+          allowfullscreen=""
+          width="100%"
+          height="80%"
+          style="border: 0"
+          title="google_map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="creator">
+        <p>
+          <marquee direction="left"
+            >&copy; CopyRight 2022 All Rights Reserved.
+            <span
+              ><a href="./" title="grow together"
+                >Grow Together Advertising</a
+              ></span
+            ></marquee
+          >
+        </p>
+      </div>
     </footer>
 
     <!-- footer-section-end -->
-
-</body>
-
+  </body>
 </html>
