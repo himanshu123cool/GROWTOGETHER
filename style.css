@@ -341,7 +341,7 @@ body {
   .about {
     display: flex;
     flex-direction: column-reverse;
-    padding: 3rem 0;
+    gap: 3rem 0;
   }
 
   .left_about > p > span {
@@ -371,7 +371,7 @@ body {
   .about {
     display: flex;
     flex-direction: column-reverse;
-    padding: 3rem 0;
+    gap: 3rem 0;
   }
 
   .left_about > h1 {
